@@ -1,0 +1,19 @@
+
+body {
+    background-image: url('"C:\Users\syamk\Downloads\exordium.jpg"');  /* Path to your image */
+    background-size: cover;  /* Make sure the image covers the entire screen */
+    background-position: center center;  /* Center the image */
+    background-attachment: fixed;  /* Keep the image fixed while scrolling */
+    height: 100vh;  /* Full viewport height */
+    margin: 0;  /* Remove default body margin */
+    font-family: Arial, sans-serif;  /* Optional: Set a default font */
+    color: white;  /* Optional: Change text color to white for contrast */
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);  /* Dark transparent background for readability */
+    border-radius: 10px;
+    margin-top: 20%;
+}
